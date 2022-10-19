@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(216, 94, 49);
+}
+
+.main-wrapper {
+    display: flex;
+
+}
+
+.text-wrapper {
+    margin: 0 auto;
+}
+
+.form-wrapper {
+
+    margin-right: 7rem;
+}
+
+.text-wrapper h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: aliceblue;
+    word-spacing: 0.1rem;
+    margin-top: 10rem;
+}
+
+.text-wrapper p {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+button {
+    background-color: rgb(75, 14, 133);
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: rgb(193, 207, 201);
+    box-shadow: 0 0 5px white;
+    margin-top: 5rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    color: rgb(199, 161, 115);
+}
+
+form {
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+}
+
+input {
+    display: block;
+    margin-top: 1rem;
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: rgb(205, 212, 212);
+}
+
+.bnt {
+    background-color: rgb(9, 99, 9);
+    border: none;
+    width: 95%;
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+form p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.form-link {
+    color: red;
+    text-decoration: none;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(11, 11, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    height: 10vh;
+    color: white;
+}
+span + ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+nav a{
+text-decoration: none;
+}
+nav li a{
+    margin-right: 1rem;
+    color: white;
+}
+img{
+    height: 50vh;
+    width: 30vw;
+    border-radius:50%;
+    margin-right: 7rem;
+    margin-top: 2rem;
+}
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 100px; */
+}
+#section{
+    color: white;
+}
+#section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase ;
+    margin-bottom: 2rem;
+}
+.aside{
+    line-height: 2.2rem;
+}
+#reference{
+    color:bisque;
+    margin-top: 2rem;
+}
+#reference a{
+    color: aliceblue;
+}
+.earth-overview{
+    background-color: blueviolet;
+    padding: 0.5rem;
+    width: 25vw;
+    margin-top: 1rem;
+}
+.overview{
+    margin-right: 1.5rem;
+}
+.earth-structure{
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: 25vw;
+    margin-top: 1rem;
+}
+.earth-geology{
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: 25vw;
+    margin-top: 1rem;
+}
+.earth-behavior{
+    display: flex;
+    justify-content: center;
+}
+.earth{
+    margin: 1.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: 15vw;
+    color: white;
+    text-transform: uppercase;
+}
+marquee{
+    color: mistyrose;
+    background-color: black;
+    width: 80%;
+}
+.marquee-behavior{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}

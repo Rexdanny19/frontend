@@ -1,0 +1,156 @@
+#top-most {
+    background-image: url("images/resort.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+}
+
+#first-text {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-shadow: 0 0 8px black;
+}
+
+.drop-down {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 8rem;
+}
+
+.drop-down button {
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+
+
+}
+
+
+.third-child {
+    position: relative
+}
+.third-child ul{
+    position: absolute; 
+    display: none;
+}
+
+.third-child:hover ul {
+    display: block;
+   
+}
+
+.drop-down li{
+    background-color: white;
+    text-align: center;
+    padding: 0.5rem;
+    list-style: none;
+}
+.drop-down a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(104, 79, 16);
+}
+#second-most {
+    display: flex;
+    justify-content: space-between;
+}
+#second-most div {
+    width: 100%;
+}
+
+#second-most aside {
+    width: 70%;
+}
+
+#second-most img {
+    height: 20vh;
+    width: 20vw;
+    box-shadow: 0 0 5px black;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+
+
+article hr {
+    margin-top: 1.3rem;
+    width: 6.5rem;
+    height: 0.3rem;
+    background-color: goldenrod;
+
+}
+
+article p {
+    color: goldenrod;
+    margin-top: 1rem;
+}
+
+article {
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 1rem;
+    justify-content: space-around;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+aside figure {
+    margin: 1rem;
+}
+
+#sub-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+}
+
+figcaption {
+    text-align: center;
+    padding: 1rem 0.5rem;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+}
+.next-page{
+    display: flex;
+    /* width: 10vw; */
+    flex-flow: column wrap;
+    align-content: flex-end;
+   padding-right: 0.9rem;
+    color: black;
+   /* background-color: goldenrod; */
+    text-decoration: none;
+}
+.next-page a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: bisque;
+    font-weight: 600;
+    margin-top: 3rem;
+    background: radial-gradient(goldenrod, black);
+}
